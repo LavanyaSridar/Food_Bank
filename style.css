@@ -79,7 +79,7 @@ ul li a:hover{
 /*Setting the background image using before pseudo selector*/ 
 #container1::before{
     content:'';
-    background: url("./1.jpg") no-repeat center center/cover;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHAL852ILGVF3PJuCCe942sXqb9bMAYni5aQ&usqp=CAU") no-repeat center center/cover;
     width: 100vw;
     height:59vh;
     position: absolute;
@@ -136,7 +136,7 @@ ul li a:hover{
 }
 #row2::before{
     content: '';
-    background: url('2.jpeg') no-repeat center center/cover;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsiBZC6I4y4ms-OHisWcoPhQDi1k1yuBhK1Q&usqp=CAU') no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left:0px;
@@ -161,7 +161,7 @@ ul li a:hover{
 }
 #row3::before{
     content: '';
-    background: url('3.jpeg') no-repeat center center/cover;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZAU0_SyF_RE-l8-_H0En8a6-lFAVVqGkZUQ&usqp=CAU') no-repeat center center/cover;
     position: absolute;
     top:0px;
     left:0px;
@@ -185,7 +185,7 @@ ul li a:hover{
     width: 29vw;
     height: 360px;
     border: 2px solid black;
-    background:url('a1.jpeg') no-repeat center center/cover; 
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIyIWfHrCH4l1T4Eri87AMlCxklKhx7O1eOpj9qw_YEE3dZcBMkB9h9YzAnYRrldoV52c&usqp=CAU') no-repeat center center/cover; 
     display: flex;
     justify-content:center;
     align-items:flex-end;
@@ -195,7 +195,7 @@ ul li a:hover{
     width: 29vw;
     height: 360px;
     border: 2px solid black;
-    background:url('a2.jpeg') no-repeat center center/cover;
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR99L42K_WwrXoJ747r2ZwQ3lgfzIiDPHoDpg&usqp=CAU') no-repeat center center/cover;
     display: flex;
     justify-content:center;
     align-items:flex-end;
@@ -205,7 +205,7 @@ ul li a:hover{
     width: 30vw;
     height: 360px;
     border: 2px solid black;
-    background:url('a3.jpeg') no-repeat center center/cover;
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt8VWiEqSqvSmFYu0DP7c-Kgj59UHqqRYotQ&usqp=CAU') no-repeat center center/cover;
     display: flex;
     justify-content:center;
     align-items:flex-end;
@@ -214,6 +214,8 @@ ul li a:hover{
 /*Designing the footer*/
 footer{
     text-align: center;
+    font:bold;
+    color: red;
 }
 /*Designing of Contact Us*/
 #ContactUs{
@@ -224,7 +226,21 @@ footer{
     align-items: center;
     background-color: gray;
 }
+
+
+
 .form-shape input, .form-shape select, .form-shape textarea{
+    width: 92%;
+    padding: 0.5rem;
+ }
+ /*Changing the color of placeholder*/
+ ::placeholder{                  
+     color:gray;
+ }
+
+
+
+.form-shape input, .form-shape select{
    width: 92%;
    padding: 0.5rem;
 }

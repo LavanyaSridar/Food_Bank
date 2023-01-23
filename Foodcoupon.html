@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+<head>
+  <style>
+  body, html {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbSGg18cP2UpTds0lVqo2spGzbcjPPo2vTTA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+   label{
+     width: 100px;
+     display:inline-block;
+     margin: 6px;
+   }
+
+
+#form{
+border: radius 10px;
+display: inline-block;
+background-color: blueviolet;
+
+color: red;
+padding: 0.7rem;
+}
+</style>
+</head>
+<body>
+<center> <form action="#" method="post">{% csrf_token %}
+
+ <div id="form">
+  <h1> FOOD COUPON </h1>
+  
+   <label> Name </label>
+  <input type="text" name="Name" placeholder="Name"><br>
+  <label>contactno</label>
+  <input type="text" name="contactno" placeholder="=contactno"><br>
+  <label>Email_id</label>
+  <input type="text" name="Email_id" placeholder="Email_id"><br>
+  <label>Course</label>
+  <input type="text" name="Course" placeholder="Course"><br>
+  <label>Preferences</label>
+  <input type="text" name="Preferences" placeholder="Preferences"><br>
+  <label>Restaurants</label>
+  <input type="text" name="Restaurants" placeholder="Restaurants"><br>
+  <label>Food_required</label>
+  <input type="text" name="Food_required" placeholder="Food-required"><br>
+  <input type="Submit" name="Submit">
+
+</div>
+</form>
+</center>
+</body>
+</html>
